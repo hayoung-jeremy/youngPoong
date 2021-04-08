@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>영풍문고</title>
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--js-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.color.js"></script>
+    <!--swiper-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/yp.js"></script>
+</head>
+
+<body>
+    <!--skip-->
+    <div class="skip">
+        <ul>
+            <li><a href="#nav">메인 메뉴 바로가기</a></li>
+            <li><a href="#container">본문 바로가기</a></li>
+            <li><a href="#visual">핫이슈 바로가기</a></li>
+            <li><a href="#top10">Top 10 바로가기</a></li>
+            <li><a href="#today">오늘의 책 바로가기</a></li>
+            <li><a href="#theme">테마로 보는 책 바로가기</a></li>
+            <li><a href="#ebook">eBook 바로가기</a></li>
+        </ul>
+    </div>
+
+    <!--header-->
+    <header>
+        <div class="bnr_header">height:60px</div>
+
+        <div class="hMid clearFix">
+            <div class="center">
+                <h1 class="logo"><a href="#void"><img src="images/logo_header.png" alt="영풍문고 로고"></a></h1>
+
+                <!--검색-->
+                <div class="search_box">
+
+                    <a href="#void"></a>
+                    <input type="search" id="search" placeholder="검색어를 입력하세요.">
+
+                </div>
+
+                <ul class="userGnb">
+                    <!--ns_13px_medium-->
+                    <li><a href="#void">로그인</a></li>
+                    <li><a href="#void">회원가입</a></li>
+                    <li><a href="#void">마이페이지</a></li>
+                    <li><a href="#void">장바구니</a></li>
+                    <li><a href="#void">고객센터</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="nav" class="center clearFix">
+            <div class="category">
+                <a href="#void" class="clearFix">
+                    <div class="btn_hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!--ns_18px_bold-->
+                    <strong>전체 카테고리</strong>
+                </a>
+
+                <ul class="nav">
+                    <!--li>
+                    .nav a: ns_16px_medium
+                    .ko a, en a: ns_16px_medium
+                    .sub a: ns_14px_regular
+                    .sub ul a: ns_14px_light
+                    -->
+
+                    <li>
+                        <a href="#void">국내도서</a>
+                        <ul class="ko">
+                            <li>
+                                <a href="#void">사전</a>
+                                <ul class="sub dictionary">
+                                    <li>
+                                        <a href="#void">국어사전</a>
+                                        <ul>
+                                            <li><a href="#void">국어사전</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#void">한자옥편</a>
+                                        <ul>
+                                            <li><a href="#void">한자옥편</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#void">영어사전</a>
+                                        <ul>
+                                            <li><a href="#void">영한사전</a></li>
+                                            <li><a href="#void">한영사전</a></li>
+                                            <li><a href="#void">영영한사전</a></li>
+                                            <li><a href="#void">영영사전</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#void">일본어사전</a>
+                                        <ul>
+                                            <li><a href="#void">일한사전</a></li>
+                                            <li><a href="#void">한일사전</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#void">제2외국어사전</a>
+                                        <ul>
+                                            <li><a href="#void">중국어사전</a></li>
+                                            <li><a href="#void">프랑스어사전</a></li>
+                                            <li><a href="#void">독일어사전</a></li>
+                                            <li><a href="#void">스페인어사전</a></li>
+                                            <li><a href="#void">이탈리아어사전</a></li>
+                                            <li><a href="#void">기타외국어사전</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#void">백과사전</a>
+                                        <ul>
+                                            <li><a href="#void">인명사전</a></li>
+                                            <li><a href="#void">백과사전</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">문학</a>
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#void">시</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">국내소설</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">외국소설</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">대하/역사/무협소설</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">추리소설</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">수필</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">넌픽션/유머</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">청소년</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">문고/전집</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">만화</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">학습</a>
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#void">고교참고서</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">고교영어</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">중학참고서</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">방송교재</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">검정고시</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">학습테이프 / 비디오</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">교과서</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">대학입시자료</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">아동</a>
+                                <ul class="sub">
+                                    <li>
+                                        <a href="#void">아동문학</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">아동과학</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">아동어학</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">아동역사/지리/전기</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">아동예술</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">아동학습</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">참고서/문제집</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">아동만화</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">지능개발</a>
+                                    </li>
+                                    <li>
+                                        <a href="#void">유아</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">취미/실용</a>
+                                <ul class="sub">
+                                    <li><a href="#void">여성실용</a></li>
+                                    <li><a href="#void">취미</a></li>
+                                    <li><a href="#void">스포츠/레저</a></li>
+                                    <li><a href="#void">관광여행</a></li>
+                                    <li><a href="#void">지도</a></li>
+                                    <li><a href="#void">생활실용</a></li>
+                                    <li><a href="#void">역학</a></li>
+                                    <li><a href="#void">건강</a></li>
+                                    <li><a href="#void">요리</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">예체능</a>
+                                <ul class="sub">
+                                    <li><a href="#void">예술일반</a></li>
+                                    <li><a href="#void">미술</a></li>
+                                    <li><a href="#void">디자인</a></li>
+                                    <li><a href="#void">음악</a></li>
+                                    <li><a href="#void">악보</a></li>
+                                    <li><a href="#void">연극/영화</a></li>
+                                    <li><a href="#void">체육/무용</a></li>
+                                    <li><a href="#void">사진</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">종교</a>
+                                <ul class="sub">
+                                    <li><a href="#void">종교일반</a></li>
+                                    <li><a href="#void">성서/찬송가</a></li>
+                                    <li><a href="#void">종교교육</a></li>
+                                    <li><a href="#void">기독교</a></li>
+                                    <li><a href="#void">기독용품</a></li>
+                                    <li><a href="#void">카톨릭</a></li>
+                                    <li><a href="#void">설교</a></li>
+                                    <li><a href="#void">기타종교</a></li>
+                                    <li><a href="#void">종교음악</a></li>
+                                    <li><a href="#void">종교잡지</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">잡지</a>
+                                <ul class="sub">
+                                    <li><a href="#void">시사교양</a></li>
+                                    <li><a href="#void">여성잡지</a></li>
+                                    <li><a href="#void">전문잡지</a></li>
+                                    <li><a href="#void">컴퓨터잡지</a></li>
+                                    <li><a href="#void">예술잡지</a></li>
+                                    <li><a href="#void">취미/건강</a></li>
+                                    <li><a href="#void">외국어학습지</a></li>
+                                    <li><a href="#void">어린이/청소년잡지</a></li>
+                                    <li><a href="#void">외국잡지</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">정치 &middot; 법률</a>
+                                <ul class="sub">
+                                    <li><a href="#void">법학</a></li>
+                                    <li><a href="#void">행정학</a></li>
+                                    <li><a href="#void">정치학</a></li>
+                                    <li><a href="#void">국방/군사</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">경제 &middot; 경영</a>
+                                <ul class="sub">
+                                    <li><a href="#void">무역학</a></li>
+                                    <li><a href="#void">회계학</a></li>
+                                    <li><a href="#void">관광경영/비서</a></li>
+                                    <li><a href="#void">비즈니스</a></li>
+                                    <li><a href="#void">처세</a></li>
+                                    <li><a href="#void">경제학</a></li>
+                                    <li><a href="#void">경제일반</a></li>
+                                    <li><a href="#void">경영학</a></li>
+                                    <li><a href="#void">마케팅</a></li>
+                                    <li><a href="#void">부동산</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">인문</a>
+                                <ul class="sub">
+                                    <li><a href="#void">문학</a></li>
+                                    <li><a href="#void">교육학</a></li>
+                                    <li><a href="#void">심리학</a></li>
+                                    <li><a href="#void">동양철학</a></li>
+                                    <li><a href="#void">서양철학</a></li>
+                                    <li><a href="#void">영인본</a></li>
+                                    <li><a href="#void">교양사상</a></li>
+                                    <li><a href="#void">인문문고</a></li>
+                                    <li><a href="#void">사회학</a></li>
+                                    <li><a href="#void">언론학/매스컴</a></li>
+                                    <li><a href="#void">출판학</a></li>
+                                    <li><a href="#void">문헌정보학</a></li>
+                                    <li><a href="#void">역사</a></li>
+                                    <li><a href="#void">한국역사/지리</a></li>
+                                    <li><a href="#void">세계역사/지리</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">외국어</a>
+                                <ul class="sub">
+                                    <li><a href="#void">일반영어</a></li>
+                                    <li><a href="#void">수험영어</a></li>
+                                    <li><a href="#void">일본어</a></li>
+                                    <li><a href="#void">중국어</a></li>
+                                    <li><a href="#void">기타외국어</a></li>
+                                    <li><a href="#void">ELT</a></li>
+                                    <li><a href="#void">BOOKS ON KOREA</a></li>
+                                    <li><a href="#void">방송교재</a></li>
+                                    <li><a href="#void">언어학</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">정부간행물</a>
+                                <ul class="sub">
+                                    <li><a href="#void">정부간행물</a></li>
+                                    <li><a href="#void">경제관련연구소</a></li>
+                                    <li><a href="#void">무역/금융/투자연구소</a></li>
+                                    <li><a href="#void">정치/행정/법연구소</a></li>
+                                    <li><a href="#void">교육/사회연구소</a></li>
+                                    <li><a href="#void">과학/환경/통신연구소</a></li>
+                                    <li><a href="#void">산업연구원</a></li>
+                                    <li><a href="#void">기타</a></li>
+                                    <li><a href="#void">방송통신대교재</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">컴퓨터</a>
+                                <ul class="sub">
+                                    <li><a href="#void">컴퓨터언어</a></li>
+                                    <li><a href="#void">컴퓨터일반</a></li>
+                                    <li><a href="#void">OS</a></li>
+                                    <li><a href="#void">시스템공학</a></li>
+                                    <li><a href="#void">OA</a></li>
+                                    <li><a href="#void">그래픽</a></li>
+                                    <li><a href="#void">네트워크</a></li>
+                                    <li><a href="#void">인터넷</a></li>
+                                    <li><a href="#void">컴퓨터수험서</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">공학</a>
+                                <ul class="sub">
+                                    <li><a href="#void">공학일반</a></li>
+                                    <li><a href="#void">토목공학</a></li>
+                                    <li><a href="#void">건축공학</a></li>
+                                    <li><a href="#void">기계공학</a></li>
+                                    <li><a href="#void">금속공학</a></li>
+                                    <li><a href="#void">화학공학</a></li>
+                                    <li><a href="#void">환경공학</a></li>
+                                    <li><a href="#void">전기/전자공학</a></li>
+                                    <li><a href="#void">정보/통신공학</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">자연</a>
+                                <ul class="sub">
+                                    <li><a href="#void">과학일반</a></li>
+                                    <li><a href="#void">수학</a></li>
+                                    <li><a href="#void">물리학</a></li>
+                                    <li><a href="#void">화학</a></li>
+                                    <li><a href="#void">지구과학</a></li>
+                                    <li><a href="#void">생물학</a></li>
+                                    <li><a href="#void">농업/임학</a></li>
+                                    <li><a href="#void">축산</a></li>
+                                    <li><a href="#void">가정학</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">의학</a>
+                                <ul class="sub">
+                                    <li><a href="#void">기초의학</a></li>
+                                    <li><a href="#void">내과/외과</a></li>
+                                    <li><a href="#void">기타의학</a></li>
+                                    <li><a href="#void">약학</a></li>
+                                    <li><a href="#void">보건학</a></li>
+                                    <li><a href="#void">간호학</a></li>
+                                    <li><a href="#void">한방의학</a></li>
+                                    <li><a href="#void">가정실용서</a></li>
+                                    <li><a href="#void">수험서</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">수험서</a>
+                                <ul class="sub">
+                                    <li><a href="#void">상식/면접/자기소개</a></li>
+                                    <li><a href="#void">공무원수험서</a></li>
+                                    <li><a href="#void">국가고시</a></li>
+                                    <li><a href="#void">공사/기업체수험서</a></li>
+                                    <li><a href="#void">자격시험</a></li>
+                                    <li><a href="#void">편입/대학원</a></li>
+                                    <li><a href="#void">독학사/학사</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#void">외국도서</a>
+                        <ul class="fo">
+                            <li>
+                                <a href="#void">외서 일반서적</a>
+                                <ul class="sub">
+                                    <li><a href="#void">DICTIONARY/ELT</a></li>
+                                    <li><a href="#void">LITERARY WORKS</a></li>
+                                    <li><a href="#void">ART/SPORT/MUSIC</a></li>
+                                    <li><a href="#void">HOBBY</a></li>
+                                    <li><a href="#void">인터파크 외서</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">외서 전문서적</a>
+                                <ul class="sub">
+                                    <li><a href="#void">HUMANITIES</a></li>
+                                    <li><a href="#void">SOCIAL SCIENCE</a></li>
+                                    <li><a href="#void">PURE SCIENCE</a></li>
+                                    <li><a href="#void">APPLIED SCIENCE</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#void">외서 컴퓨터</a>
+                                <ul class="sub">
+                                    <li><a href="#void">COMPUTER LANGUAGE</a></li>
+                                    <li><a href="#void">OPERATING SYSTEM</a></li>
+                                    <li><a href="#void">GENERAL COMPUTER</a></li>
+                                    <li><a href="#void">SYSTEM ENGINEERING</a></li>
+                                    <li><a href="#void">INTERNET</a></li>
+                                    <li><a href="#void">NETWORK</a></li>
+                                    <li><a href="#void">GRAPHIC</a></li>
+                                    <li><a href="#void">OA</a></li>
+                                    <li><a href="#void">COMPUTER CERTIFICATION</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+            <ul class="quick_menu">
+                <!--ns_18px_bold-->
+                <li><a href="#void">국내도서</a></li>
+                <li><a href="#void">외국도서</a></li>
+                <li><a href="#void">베스트도서</a></li>
+                <li><a href="#void">신간도서</a></li>
+                <li><a href="#void">eBook</a></li>
+                <li><a href="#void">event</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <hr>
+    <!--container-->
+    <section id="container">
+        <h2 class="blind">main_banner,contents</h2>
+
+        <!--visual-->
+        <section id="visual" class="clearFix">
+            <h3 class="blind">hot_issue</h3>
+            <div class="center clearFix">
+                <div class="text_mo">
+                    <p class="title">HOT ISSUE</p>
+                    <span class="info">영풍문고 화제의 소식들 <br> 가장 핫한 소식들을 만나보세요</span>
+                </div>
+                <div class="issue_wrap">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <!--360x360-->
+                            <div class="swiper-slide"><a href="#void"><img src="images/bnr_issue01.png" alt="함께 해주셔서 감사합니다. 영풍문고 창립 <28></28>주년. 서점다운 서점 영풍문고 28주년 축하 이벤트!"></a></div>
+                            <div class="swiper-slide"><a href="#void"><img src="images/bnr_issue02.png" alt="오늘은 왠지 교양이 땡긴다. 영풍문고 교양     추천도서. 알쓸신잡, 읽기만 하면 내것이 되는 1페이지 한국사 365, 설민석의 책 읽어드립니다."></a></div>
+                            <div class="swiper-slide"><a href="#void"><img src="images/bnr_issue03.png" alt="집밥 레시피. 아무도 가르쳐주지 않았던 맛내    기 비법 공개. 임성근의 한끗 다른 집밥, 이정현의 집밥레스토랑."></a></div>
+                            <div class="swiper-slide"><a href="#void"><img src="images/bnr_issue04.png" alt="2020 상반기 영풍문고 종합 베스트셀러. 흔한    남매3"></a></div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!--bar:140x5 / line: w_810px-->
+
+        </section>
+
+        <hr>
+        <!--contents-->
+        <section id="contents">
+            <h3 class="blind">스테디셀러, 탑텐, 오늘의 책, 테마로 보는 책, 광고, 추천 e북,</h3>
+
+            <!--steady-->
+            <div class="steady">
+
+                <div class="bg_steady">bg_steady-#voidf4fcfd(100% x 400px)</div>
+
+                <div class="center clearFix">
+
+
+
+                    <ul class="bnr_steady">
+                        <li class="bnr_st_item01 clearFix">
+                            <div class="book"><img src="images/steady_1.jpg" alt="아몬드"></div>
+
+                            <div class="info">
+                                <p class="title">아몬드</p>
+                                <p class="writer">송원평<span></span></p>
+                                <span class="pb">창비</span>
+                                <span class="pr">한국형 영어덜트 소설의 탄생!</span>
+                            </div>
+
+                            <div class="price">
+                                <span class="cp">12,000</span>
+                                <i>icon_dis_big_W</i>
+                                <span class="dp">10,800</span>
+                            </div>
+
+                            <p class="more"><a href="#void">장바구니에 담기</a></p>
+                            <p class="my"><a href="#void">내 서재에 담기</a></p>
+                        </li>
+
+                        <li class="bnr_st_item02 clearFix">
+                            <div class="book"><img src="images/steady_2.jpg" alt="나는 나로 살기로 했다"></div>
+
+                            <div class="info">
+                                <p class="title">나는 나로 살기로 했다</p>
+                                <p class="writer">김수현<span></span></p>
+                                <span class="pb">마음의 숲</span>
+                                <span class="pr">진짜 '나'로 살기위한 뜨거운 조언들!</span>
+                            </div>
+
+                            <div class="price">
+                                <span class="cp">13,800</span>
+                                <i>icon_dis_big_W</i>
+                                <span class="dp">12,420</span>
+                            </div>
+
+                            <p class="more"><a href="#void">장바구니에 담기</a></p>
+                            <p class="my"><a href="#void">내 서재에 담기</a></p>
+
+                        </li>
+
+                        <li class="bnr_st_item03 clearFix">
+                            <div class="book"><img src="images/steady_3.jpg" alt="하버드 상위 1퍼센트의 비밀"></div>
+
+                            <div class="info">
+                                <p class="title">하버드 상위 1퍼센트의 비밀</p>
+                                <p class="writer">정주영<span></span></p>
+                                <span class="pb">한국경제신문</span>
+                                <span class="pr">신호를 차단하고 깊이 몰입하라</span>
+                            </div>
+
+                            <div class="price">
+                                <span class="cp">16,000</span>
+                                <i>icon_dis_big_W</i>
+                                <span class="dp">14,400</span>
+                            </div>
+
+                            <p class="more"><a href="#void">장바구니에 담기</a></p>
+                            <p class="my"><a href="#void">내 서재에 담기</a></p>
+                        </li>
+
+                        <li class="bnr_st_item04 clearFix">
+                            <div class="book"><img src="images/steady_4.jpg" alt="부의 추월차선"></div>
+
+                            <div class="info">
+                                <p class="title">부의 추월차선</p>
+                                <p class="writer">엠제이드마코<span></span></p>
+                                <span class="pb">토트</span>
+                                <span class="pr">부자들이 말해주지 않는 진정한 부를 얻는 방법</span>
+                            </div>
+
+                            <div class="price">
+                                <span class="cp">15,000</span>
+                                <i>icon_dis_big_W</i>
+                                <span class="dp">13,500</span>
+                            </div>
+
+                            <p class="more"><a href="#void">장바구니에 담기</a></p>
+                            <p class="my"><a href="#void">내 서재에 담기</a></p>
+                        </li>
+
+                        <li class="bnr_st_item05 clearFix">
+                            <div class="book"><img src="images/steady_5.jpg" alt="돌이킬 수 없는 약속"></div>
+
+                            <div class="info">
+                                <p class="title">돌이킬 수 없는 약속</p>
+                                <p class="writer">야쿠마루가쿠<span></span></p>
+                                <span class="pb">북플라자</span>
+                                <span class="pr">그들은 지금 교도소에서 나왔습니다!</span>
+                            </div>
+
+                            <div class="price">
+                                <span class="cp">15,000</span>
+                                <i>icon_dis_big_W</i>
+                                <span class="dp">13,500</span>
+                            </div>
+
+                            <p class="more"><a href="#void">장바구니에 담기</a></p>
+                            <p class="my"><a href="#void">내 서재에 담기</a></p>
+                        </li>
+                    </ul>
+
+                    <div class="text_mo">
+                        <p class="title">STEADY SELLER</p>
+                        <span class="info">영풍문고의 스테디셀러입니다. <br> 오랫동안 사랑받아온 책들을 소개합니다.</span>
+
+                        <p class="more">
+                            <a href="#void">
+                                <!--ns_18px_light
+                                padding: 20px 40px-->
+                                자세히보기
+                                <span></span>
+                            </a>
+                        </p>
+                    </div>
+
+                    <ul class="btn">
+                        <li class="prev"><a href="#void"></a></li>
+                        <li class="next"><a href="#void"></a></li>
+                    </ul>
+                    <div class="pagination">
+                        <span>1</span>
+                        <span>/ 5</span>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <!--top10-->
+            <div id="top10">
+                <div class="center">
+                    <!--h4: mo_20px_semibold-->
+                    <h4 class="title">Top 10</h4>
+
+                    <div class="listWrap">
+                        <ul class="list clearFix">
+                            <!--book: h_300px;
+                        label: mo_30px_medium
+                        .title: ns_18px_regular
+                        .writer: ns_14px_light
+                        
+                        .price: padding_20px 20px;
+                        .cp: mo_14px_regular
+                        .dp: mo_20px_semibold
+                        .sp, .more, .my: ns_12px_regular-->
+                            <li class="list_item1 clearFix">
+                                <a href="#void"><img src="images/top01.jpg" alt="흔한 남매5"></a>
+                                <div class="info">
+
+                                    <p class="title">흔한 남매5</p>
+                                    <p class="writer">저자 : 흔한남매, 백난도</p>
+
+                                    <div class="price">
+                                        <p class="cp">12,000 <span></span></p>
+                                        <span class="dp">10,800</span>
+                                        <span class="sp">(적립: 600)</span>
+                                    </div>
+
+                                    <p class="more"><a href="#void">장바구니</a></p>
+                                    <p class="my"><a href="#void">내 서재</a></p>
+
+                                </div>
+                            </li>
+                            <li class="list_item2 clearFix">
+                                <a href="#void"><img src="images/top02.jpg" alt="더 해빙"></a>
+                                <div class="info">
+
+                                    <p class="title">더 해빙</p>
+                                    <p class="writer">저자 : 이서윤, 홍주연</p>
+
+                                    <div class="price">
+                                        <p class="cp">16,000 <span></span></p>
+                                        <span class="dp">14,400</span>
+                                        <span class="sp">(적립: 800)</span>
+                                    </div>
+
+                                    <p class="more"><a href="#void">장바구니</a></p>
+                                    <p class="my"><a href="#void">내 서재</a></p>
+
+                                </div>
+                            </li>
+                            <li class="list_item3 clearFix">
+                                <a href="#void"><img src="images/top03.jpg" alt="애쓰지 않고 편안하게"></a>
+                                <div class="info">
+
+                                    <p class="title">애쓰지 않고 편안하게</p>
+                                    <p class="writer">저자 : 김수현</p>
+
+                                    <div class="price">
+                                        <p class="cp">15,000 <span></span></p>
+                                        <span class="dp">13,500</span>
+                                        <span class="sp">(적립: 750)</span>
+                                    </div>
+
+                                    <p class="more"><a href="#void">장바구니</a></p>
+                                    <p class="my"><a href="#void">내 서재</a></p>
+
+                                </div>
+                            </li>
+                            <li class="list_item4 clearFix">
+                                <a href="#void"><img src="images/top04.jpg" alt="돈의 속성"></a>
+                                <div class="info">
+
+                                    <p class="title">돈의 속성</p>
+                                    <p class="writer">저자 : 김승호</p>
+
+                                    <div class="price">
+                                        <p class="cp">16,800 <span></span></p>
+                                        <span class="dp">15,120</span>
+                                        <span class="sp">(적립: 840)</span>
+                                    </div>
+
+                                    <p class="more"><a href="#void">장바구니</a></p>
+                                    <p class="my"><a href="#void">내 서재</a></p>
+
+                                </div>
+                            </li>
+                            <li class="list_item5 clearFix">
+                                <a href="#void"><img src="images/top05.jpg" alt="설민석의 한국사 대모험14"></a>
+                                <div class="info">
+
+                                    <p class="title">설민석의 한국사 대모험14</p>
+                                    <p class="writer">저자 : 설민석, 스토리박스</p>
+
+                                    <div class="price">
+                                        <p class="cp">12,000 <span></span></p>
+                                        <span class="dp">10,800</span>
+                                        <span class="sp">(적립: 600)</span>
+                                    </div>
+
+                                    <p class="more"><a href="#void">장바구니</a></p>
+                                    <p class="my"><a href="#void">내 서재</a></p>
+
+                                </div>
+                            </li>
+                            <li class="list_item6 clearFix">
+                                <a href="#void"><img src="images/top06.png" alt="기억 1"></a>
+                                <div class="info">
+
+                                    <p class="title">기억 1</p>
+                                    <p class="writer">저자 : 베르나르베르베르</p>
+
+                                    <div class="price">
+                                        <p class="cp">14,800 <span></span></p>
+                                        <span class="dp">13,320</span>
+                                        <span class="sp">(적립: 740)</span>
+                                    </div>
+
+                                    <p class="more"><a href="#void">장바구니</a></p>
+                                    <p class="my"><a href="#void">내 서재</a></p>
+
+                                </div>
+                            </li>
+                            <li class="list_item7 clearFix">
+                                <a href="#void"><img src="images/top07.jpg" alt="김미경의 리부트"></a>
+                                <div class="info">
+
+                                    <p class="title">김미경의 리부트</p>
+                                    <p class="writer">저자 : 김미경</p>
+
+                                    <div class="price">
+                                        <p class="cp">16,000 <span></span></p>
+                                        <span class="dp">14,400</span>
+                                        <span class="sp">(적립: 800)</span>
+                                    </div>
+
+                                    <p class="more"><a href="#void">장바구니</a></p>
+                                    <p class="my"><a href="#void">내 서재</a></p>
+
+                                </div>
+                            </li>
+                            <li class="list_item8 clearFix">
+                                <a href="#void"><img src="images/top08.jpg" alt="보통의 언어들"></a>
+                                <div class="info">
+
+                                    <p class="title">보통의 언어들</p>
+                                    <p class="writer">저자 : 김이나</p>
+
+                                    <div class="price">
+                                        <p class="cp">14,500 <span></span> </p>
+                                        <span class="dp">13,050</span>
+                                        <span class="sp">(적립: 725)</span>
+                                    </div>
+
+                                    <p class="more"><a href="#void">장바구니</a></p>
+                                    <p class="my"><a href="#void">내 서재</a></p>
+
+                                </div>
+                            </li>
+                            <li class="list_item9 clearFix">
+                                <a href="#void"><img src="images/top09.jpg" alt="좀비 고등학교 코믹스19"></a>
+                                <div class="info">
+
+                                    <p class="title">좀비 고등학교 코믹스19</p>
+                                    <p class="writer">저자 : 유대영</p>
+
+                                    <div class="price">
+                                        <p class="cp">9,800 <span></span> </p>
+                                        <span class="dp">8,820</span>
+                                        <span class="sp">(적립: 490)</span>
+                                    </div>
+
+                                    <p class="more"><a href="#void">장바구니</a></p>
+                                    <p class="my"><a href="#void">내 서재</a></p>
+
+                                </div>
+                            </li>
+                            <li class="list_item10 clearFix">
+                                <a href="#void"><img src="images/top10.jpg" alt="원피스 96"></a>
+                                <div class="info">
+
+                                    <p class="title">원피스 96</p>
+                                    <p class="writer">저자 : EICHIRO ODA</p>
+
+                                    <div class="price">
+                                        <p class="cp">5,000 <span></span></p>
+                                        <span class="dp">4,500</span>
+                                        <span class="sp">(적립: 250)</span>
+                                    </div>
+
+                                    <p class="more"><a href="#void">장바구니</a></p>
+                                    <p class="my"><a href="#void">내 서재</a></p>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--{btn_prev_small},{btn_next_small}-->
+                    <div class="btn_top10">
+                        <div class="prev"><img src="images/btn_prev_small.png" alt="이전으로"></div>
+                        <div class="next"><img src="images/btn_next_small.png" alt="다음으로"></div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <!--today-->
+            <div id="today">
+                <!--div#voidtoday에 배경: bg_today-->
+
+                <div class="center">
+                    <!--bg: bg_today_title-->
+                    <h4 class="title">오늘의 책</h4>
+
+                    <ul class="list">
+                        <!--ebook과 동일
+                            book: h_300px;
+                            .pr, .writer, .pb: ns_14px_light
+                            .title: ns_20px_medium
+                            .detail: ns_13px_light
+                            .cp: mo_14px_regular
+                            .dp: mo_28px_semibold
+                            .sp: ns_12px_regular-->
+
+                        <li class="list_item1">
+                            <a href="#void"><img src="images/today01.jpg" alt="내 집 없는 부자는 없다"></a>
+
+                            <div class="info_big">
+
+                                <span class="pr">하락장에도 흔들리지 않는 부동산 선순환 투자</span>
+                                <p class="title">내 집 없는 부자는 없다</p>
+                                <span class="writer">대치동키즈</span>
+                                <span class="pb">원앤원북스</span>
+                                <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+
+                                <div class="price">
+                                    <p class="cp">16,000 <span></span></p>
+                                    <span class="dp">14,400</span>
+                                    <span class="sp">(적립: 800)</span>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="list_item2">
+                            <a href="#void"><img src="images/today02.jpg" alt="타오르는 마음"></a>
+
+                            <div class="info_big">
+
+                                <span class="pr">K-스릴러의 뉴 제너레이션</span>
+                                <p class="title">타오르는 마음</p>
+                                <span class="writer">이두온</span>
+                                <span class="pb">은행나무</span>
+                                <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+
+                                <div class="price">
+                                    <p class="cp">14,500 <span></span></p>
+                                    <span class="dp">13,050</span>
+                                    <span class="sp">(적립: 725)</span>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="list_item3">
+                            <a href="#void"><img src="images/today03.jpg" alt="적당히 가까운 사이"></a>
+
+                            <div class="info_big">
+
+                                <span class="pr">외롭지도 피곤하지도 않은 너와 나의 거리</span>
+                                <p class="title">적당히 가까운 사이</p>
+                                <span class="writer">댄싱스네일</span>
+                                <span class="pb">허밍버드</span>
+                                <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+
+                                <div class="price">
+                                    <p class="cp">14,500 <span></span></p>
+                                    <span class="dp">13,050</span>
+                                    <span class="sp">(적립: 725)</span>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="list_item4">
+                            <a href="#void"><img src="images/today04.jpg" alt="흔한 남매5"></a>
+
+                            <div class="info_big">
+
+                                <span class="pr">흔한남매가 선사하는 유쾌한 우애와 순수한 웃음!</span>
+                                <p class="title">흔한 남매5</p>
+                                <span class="writer">흔한남매, 백난도</span>
+                                <span class="pb">아이세움</span>
+                                <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+
+                                <div class="price">
+                                    <p class="cp">12,000 <span></span></p>
+                                    <span class="dp">10,800</span>
+                                    <span class="sp">(적립: 800)</span>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="btn">
+                        <li class="prev"><a href="#void"></a></li>
+                        <li class="next"><a href="#void"></a></li>
+                    </ul>
+
+                    <div class="pagination">
+                        <span>1</span>
+                        <span>/ 4</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr>
+            <!--theme-->
+            <div id="theme">
+                <!--h4: ns_20px_medium-->
+                <div class="center">
+                    <h4 class="title">테마로 보는 책</h4>
+                </div>
+
+                <ul class="theme_list">
+                    <!--.theme_list a: ns_18px_light / :hover{~medium}
+                        .theme_sub a, .more: ns / mo _18px_regular-->
+                    <li class="list_item list_item1 active">
+                        <a href="#void"><span>미디어 추천</span></a>
+                        <ul class="theme_sub center clearFix">
+                            <p class="more"><a href="#void">더보기<span class="btn"></span></a></p>
+                            <li class="sub_list active">
+                                <a href="#void">마케팅의 비밀</a>
+                                <!--.books: 120x180-->
+                                <ul class="books active">
+                                    <li><a href="#voidvoid"><img src="images/theme01.jpg" alt="스타벅스 웨이"></a></li>
+                                    <li><a href="#void"><img src="images/theme02.jpg" alt="미쉐린 타이어는 왜 레스토랑에 별점을 매겼을까?"></a></li>
+                                    <li><a href="#void"><img src="images/theme03.jpg" alt="이상한 놈들이 온다"></a></li>
+                                    <li><a href="#void"><img src="images/theme04.jpg" alt="요즘 애들에게 팝니다"></a></li>
+                                    <li><a href="#void"><img src="images/theme05.jpg" alt="사람들은 왜 스타벅스로 가는가?"></a></li>
+                                    <li><a href="#void"><img src="images/theme06.jpg" alt="트렌드를 넘는 마케팅이 온다"></a></li>
+                                    <li><a href="#void"><img src="images/theme07.png" alt="스타벅스, 공간을 팝니다"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">PLAY BALL~!</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">우리집 봄맞이</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">바이러스와의 사투</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">파이어족이 사는 법</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li class="list_item list_item2">
+                        <a href="#void"><span>국내</span></a>
+                        <ul class="theme_sub center">
+                            <p class="more"><a href="#void">더보기<span class="btn"></span></a></p>
+                            <li class="sub_list active">
+                                <a href="#void">아빠표 영어</a>
+                                <ul class="books active">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">국민시인 나태주</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">좋은 운을 만드는 비결</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">초등 학습서 세트</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">독서광 빌 게이츠 추천도서</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li class="list_item list_item3">
+                        <a href="#void"><span>외서</span></a>
+                        <ul class="theme_sub center">
+                            <p class="more"><a href="#void">더보기<span class="btn"></span></a></p>
+                            <li class="sub_list active">
+                                <a href="#void">이제 우리아이에게 위인전을 원서로 읽게해볼까</a>
+                                <ul class="books active">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">신나는 세계여행 Magic Tree House</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">영화, 책과 소통하다</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">Collins Classics</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </li>
+
+                    <li class="list_item list_item4">
+                        <a href="#void"><span>eBook</span></a>
+                        <ul class="theme_sub center">
+                            <p class="more"><a href="#void">더보기<span class="btn"></span></a></p>
+                            <li class="sub_list active">
+                                <a href="#void">부모의 자격</a>
+                                <ul class="books active">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">초콜릿보다 달콤한 로맨스 e-book</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">세계적 기업의 경영전략서</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">달콤한 베스트 로맨스 10% 할인</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                            <li class="sub_list">
+                                <a href="#void">재테크로 시작하 ...</a>
+                                <ul class="books">
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                    <li><a href="#void"></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+
+            <hr>
+            <!--ad-->
+            <div class="ad">
+                <div class="center">
+                    <!--mo_20px_semibold
+                        strong: ns_18px_medium
+                        span: ns_18px_light-->
+                    <span class="title">BOOK AD</span>
+
+                    <input type="radio" name="btn_ad" id="btn_ad1">
+                    <input type="radio" name="btn_ad" id="btn_ad2">
+
+                    <label for="btn_ad1" class="adbtn adbtn1"></label>
+                    <label for="btn_ad2" class="adbtn adbtn2"></label>
+
+                    <ul class="ad_list">
+                        <li><strong>인생의 태도</strong><span>행복한 이기주의자로 평생 살아보니 알게 된 것들</span></li>
+                        <li><strong>책 먹는 여우의 여행일기</strong><span>소금 툭툭, 후추 톡톡 뿌려 책 먹는 여우와 나의 여행일기를 만들어요</span></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <hr>
+            <!--eBook-->
+            <div id="ebook" class="center clearFix">
+                <h4 class="title">추천 <span class="mo">eBook</span></h4>
+
+                <ul class="list clearFix">
+                    <li>
+                        <a href="#void"><img src="images/ebook1.jpg" alt="더 해빙"></a>
+                        <div class="info_big">
+
+                            <span class="pr">부와 행운을 끌어당기는 힘</span>
+                            <p class="title">더 해빙</p>
+                            <span class="writer">이서윤, 홍주연</span>
+                            <span class="pb">수오서재</span>
+
+                            <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecen as accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+
+                            <div class="price">
+                                <span class="ep">eBook 판매가 :</span>
+                                <span class="dp">12,500</span>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#void"><img src="images/ebook2.jpeg" alt="내 마음은 내가 결정합니다"></a>
+                        <div class="info_big">
+
+                            <span class="pr">내 감정의 주인이 되는 자기결정권 연습</span>
+                            <p class="title">내 마음은 내가 결정합니다</p>
+                            <span class="writer">정정엽</span>
+                            <span class="pb">다산초당</span>
+
+                            <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecen as accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+
+                            <div class="price">
+                                <span class="ep">eBook 판매가 :</span>
+                                <span class="dp">11,000</span>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#void"><img src="images/ebook3.jpg" alt="알로하, 나의 엄마들"></a>
+                        <div class="info_big">
+
+                            <p class="title">알로하, 나의 엄마들</p>
+                            <span class="writer">이금이</span>
+                            <span class="pb">창비</span>
+
+                            <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecen as accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+
+                            <div class="price">
+                                <span class="ep">eBook 판매가 :</span>
+                                <span class="dp">10,360</span>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#void"><img src="images/ebook4.jpg" alt="타인의 해석"></a>
+                        <div class="info_big">
+
+                            <span class="pr">당신이 모르는 사람을 만났을 때</span>
+                            <p class="title">타인의 해석</p>
+                            <span class="writer">말콤 글래드웰,유강은,김경일</span>
+                            <span class="pb">김영사</span>
+
+                            <p class="detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecen as accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+
+                            <div class="price">
+                                <span class="ep">eBook 판매가 :</span>
+                                <span class="dp">11,250</span>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="btn">
+                    <li class="prev"><a href="#void"></a></li>
+                    <li class="next"><a href="#void"></a></li>
+                </ul>
+                <div class="pagination">
+                    <span>1</span>
+                    <span>/ 4</span>
+                </div>
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <!--상단으로 이동-->
+    <a href="#nav" id="scroll_top">(background)btn_top:62x62</a>
+
+    <!--footer-->
+    <footer>
+        <div class="center">
+            <div class="fTop">
+                <ul class="fmenu clearFix">
+                    <!--ns_14px_regular-->
+                    <li><a href="#void">회사소개</a></li>
+                    <li><a href="#void">채용안내</a></li>
+                    <li><a href="#void">청약철회</a></li>
+                    <li><a href="#void">이용약관</a></li>
+                    <li><a href="#void">개인정보처리방침</a></li>
+                    <li><a href="#void">영상정보처리방침</a></li>
+                    <li><a href="#void">이메일무단수집거부</a></li>
+                    <li><a href="#void">광고안내</a></li>
+                    <li><a href="#void">영업점안내</a></li>
+                    <li><a href="#void">입점문의</a></li>
+                    <li><a href="#void">중고매입</a></li>
+                </ul>
+            </div>
+            <div class="fMid clearFix">
+                <div class="flogo"><img src="images/logo_footer.png" alt="영풍문고 하단 로고"></div>
+
+                <div class="info">
+                    <!--ns_12px_regular-->
+                    <p>회사명 : (주)영풍문고 ㅣ 대표이사 : 최영일 ㅣ 개인정보관리 책임자 : 조순제</p>
+                    <p>소재지 : 서울특별시 강남구 강남대로 542번지 (우)06 110</p>
+                    <p>사업자 등록번호 : 102-81-30788 사업자정보확인 ㅣ 통신판매업 신고번호 : 강남-05859</p>
+                    <p>이메일 : customer@ypbooks.co.kr ㅣ 대량주문 : 02-519-2860</p>
+                    <!--ns_10px_regular-->
+                    <span>COPYRIGHT © YOUNGPOONG BOOKSTORE INC. ALL RIGHTS RESERVED.</span>
+                </div>
+
+                <ul class="cc">
+                    <!--mo_24px_medium-->
+                    <li class="num">1544-9020</li>
+                    <!--ns_14px_regular-->
+                    <li><a href="#void">고객센터</a></li>
+                    <li><a href="#void">SCM 출판사용 통합 관리 시스템</a></li>
+                </ul>
+            </div>
+            <div class="fBot">
+                <!--.title: ns_12px_medium
+                    .info: ns_12px_regular-->
+                <ul class="clearFix">
+                    <li>
+                        <img src="images/awards_2018_03.png" alt="2018 KOREA TOP BRAND AWARD 소비자 신뢰 브랜드 대상">
+
+                        <p class="title">2018 KOREA TOP BRAND AWARD</p>
+                        <span class="info">소비자 신뢰 브랜드 대상</span>
+
+                    </li>
+                    <li>
+                        <img src="images/isms.png" alt="정보보호 관리체계 ISMS인증 획득, [인증범위] 영풍문고 인터넷 시스템 운영, [유효기간] 2017.12.30 ~ 2020.12.29">
+
+                        <p class="title">정보보호 관리체계 ISMS인증 획득</p>
+                        <span class="info">[인증범위] 영풍문고 인터넷 시스템 운영 <br> [유효기간] 2017.12.30 ~ 2020.12.29 </span>
+
+                    </li>
+                    <li>
+                        <img src="images/ks_sqi.png" alt="2014 한국 서비스 품질지수 1위">
+
+                        <p class="title">2014 한국 서비스 품질지수 1위</p>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body></html>

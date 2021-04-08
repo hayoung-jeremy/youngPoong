@@ -1,0 +1,196 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,p,button,input{
+    margin: 0;
+    padding: 0;
+}
+
+body,h1,h2,h3,h4,input,button{
+    font-family: 'Noto Sans Kr', sans-serif;
+    font-size: ;
+    color: #333;
+    line-height: 1;
+}
+
+img,fieldset,iframe{
+    border: 0 none;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+input, select, button, img{
+    vertical-align: middle;
+}
+
+i, em, address{
+    font-style: normal;
+}
+
+label, button{
+    cursor: pointer;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+.blind{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -9999em;
+}
+
+hr{
+    display: none;
+}
+
+.clearFix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.skip a{
+    position: absolute;
+    left: 0;
+    top: -9999em;
+    z-index: 9999;
+    display: block;
+    width: 100%;
+    background-color: #0a3136;
+    opacity: 0.7;
+    color: #f4fcfd;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    line-height: 60px;
+    text-align: center;
+    transition: 0.3s;
+    border: 0;
+}
+
+.skip a:hover,
+.skip a:active,
+.skip a:focus{
+    top: 0;
+}
+
+/*공통 사항*/
+.text_mo>.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+}
+.text_mo>.info{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    display: block;
+    margin-top: 16px;
+}
+
+/*today&ebook*/
+
+
+#today .pr, .writer, .pb,
+#ebook .pr, .writer, .pb
+{
+    font-size: 14px;
+    font-weight: 300;
+}
+#today .title,
+#ebook .title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#today .detail,
+#ebook .detail{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 740px;
+    height: 160px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 12px;
+}
+#today .cp,
+#ebook .cp
+{
+    font-family: 'Montserrat', sans-serif;
+}
+#today .dp,
+#ebook .dp
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+
+#today .list>li>a,
+#ebook>.list>li>a
+{
+    display: block;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+}
+
+#today .list>li>a>img,
+#ebook>.list>li>a>img
+{
+    height: 100%;
+    transition: .3s;
+}
+
+#today .list>li>a:hover>img,
+#ebook>.list>li>a:hover>img
+{
+    transform: scale(1.1);
+}
+
+#today .list>li>.info_big,
+#ebook .list>li>.info_big
+{
+    float: left;
+    margin-left: 40px;
+    position: relative;
+    bottom: -40px;
+}#today .list>li>.info_big>.pb,
+#ebook .list>li>.info_big>.pb{
+    position: relative;
+    padding-left: 12px;
+    margin-left: 12px;
+}
+#today .list>li>.info_big>.pb::before,
+#ebook .list>li>.info_big>.pb::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+#today .list>li>.info_big>.title,
+#ebook .list>li>.info_big>.title
+{
+    margin: 16px 0;
+}
+
+#today .list>li>.info_big>.price,
+#ebook .list>li>.info_big>.price
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
