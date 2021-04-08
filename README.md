@@ -18,3 +18,7 @@ url: http://jeremiah91.dothome.co.kr/ypbooks/
 </ul>
 
 ![영풍문고_flash](https://user-images.githubusercontent.com/74491172/113983771-49227780-9885-11eb-9e08-e07f57e2300c.jpg)
+
+### 3. 문제점 :
+- 반복되는 HTML 요소들이 그대로 마크업에 반영되어 있음 (로딩 속도 저하)
+- top 10 section에서 li 의 width가 책마다 다르며, hover 시 펼쳐지는 ui를 만들었는데, <br>navigation 버튼으로 넘길 때 width 값을 어떻게 측정해야할지?
