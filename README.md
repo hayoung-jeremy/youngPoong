@@ -1,5 +1,7 @@
 # portfolio_1
-영풍문고 메인 페이지 renewal http://jeremiah91.dothome.co.kr/ypbooks/
+url: http://jeremiah91.dothome.co.kr/ypbooks/
+
+영풍문고 메인 페이지 renewal
 <p> <strong>term :</strong> 2020. 07. 03 ~ 2020. 07. 22 </p>
 
 1. 선정 이유 :
